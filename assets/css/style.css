@@ -1554,3 +1554,7 @@ p.form-message.error.form-message.error {
 .projectsnavbar{
   background-color: #06262d;
 }
+
+.services_padding{
+  padding: 0px 15px 0px 0px;
+}
