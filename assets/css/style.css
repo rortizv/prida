@@ -660,6 +660,7 @@ p {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 7px;
+  color: #fff;
 }
 
 .navbar-toggler.active .toggler-icon:nth-of-type(2) {
@@ -1557,4 +1558,33 @@ p.form-message.error.form-message.error {
 
 .services_padding{
   padding: 0px 15px 0px 0px;
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px 20px 20px 20px;
+  height: 15%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.text-block p{
+  color: white;
+}
+
+.text-block h4{
+  color: grey;
+  margin-bottom: 7px;
 }
