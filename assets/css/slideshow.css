@@ -155,18 +155,18 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	padding: 3.5rem 0;
-	color: #1a1a1a;
+	color: #1A3154;
 }
 
 .heading span {
 	display: block;
 }
 
-.gallery {
+/*.gallery {
 	
-	/* Compensate for excess margin on outer gallery flex items */
+	 Compensate for excess margin on outer gallery flex items 
 	
-}
+}*/
 
 .gallery-item {
 	/* Minimum width of 24rem and grow to fit available space */
@@ -177,6 +177,7 @@ body {
 	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
     overflow: hidden;
     width: 51%;
+    
 }
 
 .gallery-item:hover{
@@ -194,6 +195,7 @@ body {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    box-shadow: 7px 7px 5px gray;
 }
 
 .gallery-image:hover {

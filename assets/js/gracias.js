@@ -1,0 +1,1 @@
+alert("Hemos recibido tus datos.  Pronto nos pondremos en contacto contigo.");
