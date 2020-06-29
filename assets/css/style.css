@@ -1617,3 +1617,7 @@ p.form-message.error.form-message.error {
 .myborder{
   border: 3px solid black;
 }
+
+.mytextblock{
+  height: auto;
+}
