@@ -15,10 +15,24 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".header_navbar").removeClass("sticky");
+            $(".navbar-nav .nav-item a").css({'color':'white'});
             $(".header_navbar img").attr("src", "assets/images/logo.png");
-        } else {
+        } else{
             $(".header_navbar").addClass("sticky");
+            $(".navbar-nav .nav-item a").css({'color':'#06262d'});
             $(".header_navbar img").attr("src", "assets/images/logo-dark.png");
+        }
+    });
+
+    $(window).on('scroll', function (event) {
+        var scroll = $(window).scrollTop();
+        if (scroll < 20) {
+            $(".header_navbar2").removeClass("sticky");
+            $(".header_navbar2 img").attr("src", "assets/images/logo.png");
+        } else{
+            $(".header_navbar2").addClass("sticky");
+            $(".mywhite").css({'color':'white'});
+            $(".header_navbar2 img").attr("src", "assets/images/logo.png");
         }
     });
 
