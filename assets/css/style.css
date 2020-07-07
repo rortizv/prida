@@ -635,11 +635,12 @@ p {
 
 .navbar-brand img {
   width: 150px;
-
+  margin-top: 10px;
 }
 
 .navbar-toggler {
   padding: 0;
+  margin-right: 20px;
 }
 
 .navbar-toggler .toggler-icon {
