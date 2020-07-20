@@ -1,13 +1,13 @@
 <?php
 
 $destino = "pridaingenieria@gmail.com";
-$primerNombre = $_POST["primerNombre"];
-$apellido = $_POST["apellido"];
-$telefono = $_POST["telefono"];
-$correo = $_POST["correo"];
-$mensaje = $_POST["mensaje"];
-$contenido = "Primer nombre: " . $primerNombre . "\nApellido: " . $apellido . "\nCorreo: " . $correo . "\nTelefono: " . $telefono . "\nMensaje: " . $mensaje;
-mail($destino,"Mensaje desde tu página web", $contenido);
+$name = $_POST["name"];
+$email = $_POST["email"];
+$number = $_POST["number"];
+$message = $_POST["message"];
+$contenido = "Nombre: " . $name . "\nCorreo: " . $email . "\nNumero: " . $number . "\nMensaje: " . $message;
+mail($destino,"Un usuario dejó este mensaje desde tu página web PRIDA", $contenido);
+echo("Hemos recibido sus datos, pronto nos pondremos en contacto con usted.");
 header("Location: index.html");
 
 ?>

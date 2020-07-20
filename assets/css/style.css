@@ -189,6 +189,13 @@ p {
   .section_title .title {
     font-size: 24px;
   }
+
+  #nav, li, a{
+    color: #06262d;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
 }
 
 @media (max-width: 450px){
@@ -1629,4 +1636,4 @@ p.form-message.error.form-message.error {
 
  .carousel-item{
   margin-top: 8%;
-} 
+}
