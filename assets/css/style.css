@@ -43,11 +43,22 @@ a:hover {
 i,
 span,
 a {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   display: inline-block;
+  
 }
 
-a,
+
 a:hover {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   color: #FFB316;
 }
 
@@ -191,11 +202,11 @@ p {
   }
 
   #nav, li, a{
-    color: #06262d;
     text-align: center;
     justify-content: center;
     width: auto;
   }
+
 }
 
 @media (max-width: 450px){
@@ -724,6 +735,10 @@ p {
     -moz-box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.1);
     padding: 5px 12px;
+  }
+
+  .navbar-nav .nav-item a {
+    color: #06262d;
   }
 }
 
@@ -1636,4 +1651,61 @@ p.form-message.error.form-message.error {
 
  .carousel-item{
   margin-top: 8%;
+}
+
+.mysocials2{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #ffffff;
+}
+
+.mysocials2:hover{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.togalign{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: white;
+}
+
+.togalign:hover{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #FFB316;
+}
+
+.thiswhite{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: white;
+}
+
+.thiswhite:hover{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  color: #FFB316;
+}
+
+.thisgreen{
+  color: #06262d;
 }
